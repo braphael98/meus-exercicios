@@ -2,13 +2,16 @@
 #include <stdio.h>
 
 int main() {
-int numero = 0, contagem = 0, somaNumeros = 0;
-while(somaNumeros<500){
-    printf("Digite um numero: ");
-    scanf("%i",&numero);
-    somaNumeros = somaNumeros + numero;
-    contagem ++;
-}
-    printf("Leu %i numeros",contagem);
+  int num, contagem =0;
+  int i = 0;
+    while( i <500){
+        printf("Digite um numero:");
+        scanf("%i",&num);
+        i = i + num;
+        contagem++;
+    }
+    printf("Voce digitou %i numeros que resultou na soma de 500",contagem);
+    printf("\n----------------------------------------------------------");
+
     return 0;
 }
