@@ -1,3 +1,3 @@
 # algoritimos
-meu repositorio pessoal da aula de algoritimos
-/---------------------------------------------\
+Repositorio feito com o intuito de acompanhar a evolção em algoritimos.
+
